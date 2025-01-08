@@ -108,29 +108,17 @@ blockquote {
         padding: 1.5rem;
     }
 }
-.download-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #007bff; /* Blue background */
-  color: #fff; /* White text */
-  font-size: 16px;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.link-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
-.download-button svg {
-  margin-left: 8px;
-  width: 16px;
-  height: 16px;
-  fill: #fff; /* White icon */
-}
-
-.download-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+.link-button:hover {
+    background-color: #0056b3;
 }
